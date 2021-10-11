@@ -5,6 +5,7 @@
 @layer base {
   html {
     font-size: 10px;
+    @apply font-vietnam;
   }
 }
 
@@ -18,4 +19,8 @@
 
 .show {
   @apply pointer-events-auto opacity-100;
+}
+
+.btn {
+  @apply bg-brightRed px-8 py-4 font-vietnam text-3xl rounded-full text-white;
 }

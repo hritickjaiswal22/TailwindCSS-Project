@@ -568,6 +568,7 @@ video {
 }
   html {
     font-size: 10px;
+    font-family: 'Be Vietnam', sans-serif;
   }
 .pointer-events-none {
 	pointer-events: none;
@@ -590,25 +591,21 @@ video {
 .right-8 {
 	right: 2rem;
 }
-.z-50 {
-	z-index: 50;
-}
 .z-30 {
 	z-index: 30;
+}
+.z-50 {
+	z-index: 50;
 }
 .my-8 {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
-.my-16 {
+.mt-16 {
 	margin-top: 4rem;
-	margin-bottom: 4rem;
 }
 .mt-8 {
 	margin-top: 2rem;
-}
-.mt-16 {
-	margin-top: 4rem;
 }
 .flex {
 	display: flex;
@@ -624,6 +621,9 @@ video {
 }
 .w-11\/12 {
 	width: 91.666667%;
+}
+.w-full {
+	width: 100%;
 }
 .flex-col {
 	flex-direction: column;
@@ -647,6 +647,28 @@ video {
 }
 .p-4 {
 	padding: 1rem;
+}
+.text-center {
+	text-align: center;
+}
+.text-7xl {
+	font-size: 4.5rem;
+	line-height: 1;
+}
+.text-3xl {
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+}
+.font-bold {
+	font-weight: 700;
+}
+.text-darkBlue {
+	--tw-text-opacity: 1;
+	color: hsla(228, 39%, 23%, var(--tw-text-opacity));
+}
+.text-gray-300 {
+	--tw-text-opacity: 1;
+	color: rgba(212, 212, 216, var(--tw-text-opacity));
 }
 .opacity-0 {
 	opacity: 0;
@@ -676,4 +698,19 @@ video {
 .show {
 	pointer-events: auto;
 	opacity: 1;
+}
+
+.btn {
+	border-radius: 9999px;
+	--tw-bg-opacity: 1;
+	background-color: hsla(12, 88%, 59%, var(--tw-bg-opacity));
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-family: 'Be Vietnam', sans-serif;
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+	--tw-text-opacity: 1;
+	color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
