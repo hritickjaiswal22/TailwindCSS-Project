@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Managing Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <section
+      class="
+        overlay
+        fixed
+        w-screen
+        h-screen
+        top-0
+        left-0
+        bg-gray-200
+        background-opacity-60
+        flex
+        justify-center
+        opacity-0
+        pointer-events-none
+        z-30
+      "
+    >
+      <div
+        style="height: fit-content"
+        class="
+          w-11/12
+          bg-white
+          opacity-100
+          flex flex-col
+          justify-center
+          items-center
+          h-auto
+          mt-16
+        "
+      >
+        <h1 class="navigation-header">Pricing</h1>
+        <h1 class="navigation-header">Product</h1>
+        <h1 class="navigation-header">About Us</h1>
+        <h1 class="navigation-header">Careers</h1>
+        <h1 class="navigation-header">Community</h1>
+      </div>
+    </section>
+    <header class="max-width p-4 flex justify-between relative">
+      <div>
+        <img class="z-50" src="./images/logo.svg" alt="" />
+      </div>
+      <img
+        class="hamburgerBtn absolute right-8"
+        src="./images/icon-hamburger.svg"
+        alt=""
+      />
+      <img
+        class="closeBtn absolute right-8 opacity-0 pointer-events-none z-50"
+        src="./images/icon-close.svg"
+        alt=""
+      />
+    </header>
+    <script src="./index.js"></script>
+  </body>
+</html>
