@@ -24,3 +24,7 @@
 .btn {
   @apply bg-brightRed px-8 py-4 font-vietnam text-3xl rounded-full text-white;
 }
+
+.centered-heading {
+  @apply text-2xl text-darkBlue text-center font-bold inline-block absolute left-1/2 top-1/2;
+}
