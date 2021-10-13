@@ -674,6 +674,9 @@ video {
 .cursor-pointer {
 	cursor: pointer;
 }
+.flex-row-reverse {
+	flex-direction: row-reverse;
+}
 .flex-col {
 	flex-direction: column;
 }
@@ -910,5 +913,17 @@ video {
 
 	.md\:hidden {
 		display: none;
+	}
+
+	.md\:w-5\/12 {
+		width: 41.666667%;
+	}
+
+	.md\:w-1\/2 {
+		width: 50%;
+	}
+
+	.md\:text-left {
+		text-align: left;
 	}
 }

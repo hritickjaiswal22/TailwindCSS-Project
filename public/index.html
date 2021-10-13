@@ -101,15 +101,30 @@
       <button class="btn hidden md:block">Get Started</button>
     </header>
 
-    <article class="max-width p-4 mt-8 text-center">
-      <div>
+    <article
+      class="
+        max-width
+        p-4
+        mt-8
+        text-center
+        md:flex md:text-left
+        justify-between
+        items-center
+        flex-row-reverse
+      "
+    >
+      <div class="md:w-5/12">
         <img class="w-full" src="./images/illustration-intro.svg" alt="" />
       </div>
-      <div>
-        <h1 class="text-7xl my-8 text-darkBlue text-center font-bold">
+      <div style="height: fit-content" class="md:w-5/12">
+        <h1
+          class="text-7xl my-8 text-darkBlue text-center md:text-left font-bold"
+        >
           Bring everyone together to build better products.
         </h1>
-        <p class="text-3xl my-8 text-center text-gray-300 font-bold">
+        <p
+          class="text-3xl my-8 text-center md:text-left text-gray-300 font-bold"
+        >
           Manage makes it simple for software teams to plan day-to-day tasks
           while keeping the larger team goals in view.
         </p>
