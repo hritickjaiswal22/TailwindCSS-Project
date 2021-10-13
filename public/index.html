@@ -13,10 +13,8 @@
     />
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body>
@@ -161,12 +159,93 @@
       </div>
     </article>
 
-    <article>
+    <article class="text-center">
       <h1 class="text-5xl mb-16 text-darkBlue text-center font-bold">
         What they’ve said
       </h1>
+      <div style="max-width: 70rem" class="slider-container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide text-center">
+              <div class="w-20 h-20 mx-auto">
+                <img class="w-full" src="./images/avatar-ali.png" alt="Ali" />
+              </div>
+              <h1 class="text-3xl my-8 font-bold text-darkBlue">Ali Bravo</h1>
+              <p class="text-2xl font-normal text-darkGrayishBlue">
+                “We have been able to cancel so many other subscriptions since
+                using Manage. There is no more cross-channel confusion and
+                everyone is much more focused.”
+              </p>
+            </div>
+            <div class="swiper-slide text-center">
+              <div class="w-20 h-20 mx-auto">
+                <img
+                  class="w-full"
+                  src="./images/avatar-anisha.png"
+                  alt="Anisha"
+                />
+              </div>
+              <h1 class="text-3xl my-8 font-bold text-darkBlue">Anisha Li</h1>
+              <p class="text-2xl font-normal text-darkGrayishBlue">
+                “Manage has supercharged our team’s workflow. The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.”
+              </p>
+            </div>
+            <div class="swiper-slide text-center">
+              <div class="w-20 h-20 mx-auto">
+                <img
+                  class="w-full"
+                  src="./images/avatar-richard.png"
+                  alt="Richard"
+                />
+              </div>
+              <h1 class="text-3xl my-8 font-bold text-darkBlue">
+                Richard Watts
+              </h1>
+              <p class="text-2xl font-normal text-darkGrayishBlue">
+                “Manage allows us to provide structure and process. It keeps us
+                organized and focused. I can’t stop recommending them to
+                everyone I talk to!”
+              </p>
+            </div>
+            <div class="swiper-slide text-center">
+              <div class="w-20 h-20 mx-auto">
+                <img
+                  class="w-full"
+                  src="./images/avatar-shanai.png"
+                  alt="Anisha"
+                />
+              </div>
+              <h1 class="text-3xl my-8 font-bold text-darkBlue">
+                Shanai Gough
+              </h1>
+              <p class="text-2xl font-normal text-darkGrayishBlue">
+                “Their software allows us to track, manage and collaborate on
+                our projects from anywhere. It keeps the whole team in-sync
+                without being intrusive.”
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <button class="btn my-8">Get Started</button>
     </article>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + "" + "</span>";
+          },
+        },
+      });
+    </script>
     <script src="./index.js"></script>
   </body>
 </html>
