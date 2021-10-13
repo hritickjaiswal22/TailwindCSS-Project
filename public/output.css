@@ -622,6 +622,9 @@ video {
 .mt-8 {
 	margin-top: 2rem;
 }
+.mb-16 {
+	margin-bottom: 4rem;
+}
 .inline-block {
 	display: inline-block;
 }
@@ -657,12 +660,6 @@ video {
 }
 .justify-between {
 	justify-content: space-between;
-}
-.rounded-lg {
-	border-radius: 0.5rem;
-}
-.rounded-3xl {
-	border-radius: 1.5rem;
 }
 .rounded-full {
 	border-radius: 9999px;
@@ -721,6 +718,10 @@ video {
 .text-2xl {
 	font-size: 1.5rem;
 	line-height: 2rem;
+}
+.text-5xl {
+	font-size: 3rem;
+	line-height: 1;
 }
 .font-bold {
 	font-weight: 700;
