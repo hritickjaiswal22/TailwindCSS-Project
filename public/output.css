@@ -686,6 +686,10 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: hsla(13, 100%, 96%, var(--tw-bg-opacity));
 }
+.bg-brightRed {
+	--tw-bg-opacity: 1;
+	background-color: hsla(12, 88%, 59%, var(--tw-bg-opacity));
+}
 .p-4 {
 	padding: 1rem;
 }
@@ -694,6 +698,12 @@ video {
 }
 .p-1 {
 	padding: 0.25rem;
+}
+.p-16 {
+	padding: 4rem;
+}
+.p-20 {
+	padding: 5rem;
 }
 .py-0\.5 {
 	padding-top: 0.125rem;
@@ -750,6 +760,14 @@ video {
 .text-darkGrayishBlue {
 	--tw-text-opacity: 1;
 	color: hsla(227, 12%, 61%, var(--tw-text-opacity));
+}
+.text-white {
+	--tw-text-opacity: 1;
+	color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.text-brightRed {
+	--tw-text-opacity: 1;
+	color: hsla(12, 88%, 59%, var(--tw-text-opacity));
 }
 .opacity-0 {
 	opacity: 0;
