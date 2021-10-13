@@ -56,12 +56,39 @@
       </div>
     </aside>
 
-    <header class="max-width p-4 flex justify-between relative">
-      <div>
+    <header class="max-width p-4 flex justify-between items-center relative">
+      <div style="height: fit-content">
         <img class="z-50" src="./images/logo.svg" alt="" />
       </div>
+      <div class="hidden md:flex w-1/2 justify-between">
+        <p
+          class="cursor-pointer text-veryDarkBlue hover:text-gray-300 text-2xl"
+        >
+          Pricing
+        </p>
+        <p
+          class="cursor-pointer text-veryDarkBlue hover:text-gray-300 text-2xl"
+        >
+          Product
+        </p>
+        <p
+          class="cursor-pointer text-veryDarkBlue hover:text-gray-300 text-2xl"
+        >
+          About Us
+        </p>
+        <p
+          class="cursor-pointer text-veryDarkBlue hover:text-gray-300 text-2xl"
+        >
+          Careers
+        </p>
+        <p
+          class="cursor-pointer text-veryDarkBlue hover:text-gray-300 text-2xl"
+        >
+          Community
+        </p>
+      </div>
       <img
-        class="hamburgerBtn absolute right-8"
+        class="hamburgerBtn absolute right-8 md:hidden"
         src="./images/icon-hamburger.svg"
         alt=""
       />
@@ -70,6 +97,8 @@
         src="./images/icon-close.svg"
         alt=""
       />
+
+      <button class="btn hidden md:block">Get Started</button>
     </header>
 
     <article class="max-width p-4 mt-8 text-center">
